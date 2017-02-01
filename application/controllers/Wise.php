@@ -15,7 +15,7 @@ class Wise extends Application
         $this->data['pagebody'] = 'justone';
 
         // build the list of authors, to pass on to our view
-        $source = $this->quotes->get(5);
+        $source = $this->quotes->get(6);
 
         $this->data['mug'] = $source['mug'];
         $this->data['who'] = $source['who'];
